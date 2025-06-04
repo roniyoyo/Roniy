@@ -1,0 +1,250 @@
+@charset 'UTF-8';
+
+header {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto 43px;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 100%;
+    height: 400px; 
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    flex-shrink: 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev { left: 15px; }
+.next { right: 15px; }
+
+
+.logo img{
+    width: 350px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    border: 1px dashed chocolate;
+    padding: 10px;
+}
+.logo p {
+    font-family: "Press Start 2P", cursive;
+    font-size: 5rem;
+    color: rgb(7, 4, 168);
+}
+header p{
+    text-align: center;
+    
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid chocolate;
+    border-bottom: 2px solid chocolate;
+    padding: 10px 0 12px;
+    background-color: blanchedalmond;
+}
+header nav ul li{
+    margin: 0 40px;
+    font-family: "Press Start 2P", cursive;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: chocolate;
+}
+header nav ul li a:hover{
+    color: honeydew;
+}
+
+.parrot-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.parrot-section {
+    width: 220px; 
+}
+.parrot-section h1 {
+    text-align: center;
+    border-bottom: 2px solid black; 
+    width: 180px
+}
+
+.parrot-section ul li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.parrot-section a {
+    text-decoration: none;
+    color: #333;
+}
+div ul li a:hover{
+    color: rgb(9, 5, 245);
+}
+p{
+    text-align: center;
+    font-size: 10rem;
+    letter-spacing: 75px;
+    margin-top: 10px;
+}
+.text-content h1{
+    font-size: 3rem;
+}
+.Caique {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px;  
+    padding-bottom: 20px; 
+    width: 70%; 
+    margin: 0 auto; 
+    border-bottom: 10px solid #ccc; 
+}
+
+.Caique .text-content {
+    max-width: 500px; 
+}
+
+.African.Grey {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px;  
+    padding-bottom: 20px; 
+    width: 70%; 
+    margin: 0 auto; 
+    border-bottom: 10px solid #ccc; 
+} 
+
+.African.Grey .text-content {
+    max-width: 500px; 
+}
+
+.Budgie {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 160px;  
+    padding-bottom: 20px; 
+    width: 70%; 
+    margin: 0 auto; 
+    border-bottom: 10px solid #ccc; 
+}
+
+.Budgie .text-content {
+    max-width: 500px; 
+}
+
+.HyacinthMacaw {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 120px;  
+    padding-bottom: 20px; 
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+.HyacinthMacaw .text-content {
+    max-width: 500px; 
+}
+
+.Caique img,
+.African.Grey img,
+.Budgie img,
+.HyacinthMacaw img {
+    max-width: 400px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.parrot-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+.food-row {
+    background-color: #FFF6E5; /* 淡橘底 */
+}
+
+.toy-row {
+    background-color: #E5F4FF; /* 淡藍底 */
+}
+
+.item {
+    background-color: white;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 150px; 
+    height: auto;
+}
+
+.item p {
+    font-size: 1rem;
+    letter-spacing: normal;
+    writing-mode: horizontal-tb;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.indent-title {
+    text-indent: 5em; /* 你可以調整縮排距離 */
+}
+
+
